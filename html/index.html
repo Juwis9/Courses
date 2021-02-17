@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso HTML5</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Título principal</h1>
+    <h2>Título uno</h2>
+    <h3>Subtítulo uno</h3>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <strong>Accusantium optio aliquid esse maxime doloremque,</strong> ut voluptate sed, reiciendis non dolores nisi pariatur perspiciatis quasi culpa quam harum laborum nostrum soluta? <a href="index_dos.html" target="_blank">Más info</a></p>
+    <h3>Subtítulo dos</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia impedit eum minima odio dolorum, ducimus optio hic repudiandae assumenda. Delectus nemo cum facere, recusandae modi et obcaecati repudiandae? Consequuntur, a.</p>
+    <h2>Título dos</h2>
+    <h3>Subtítulo uno</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore consequuntur sequi reprehenderit incidunt sapiente? Repellat error dolore nobis pariatur molestias nam odio, dolorum, debitis sint ab ducimus officia, nemo illo. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem cupiditate quae obcaecati assumenda optio quod provident autem? Voluptates sint impedit officia eos autem consequuntur, fugit perferendis asperiores repudiandae soluta quam?.. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem reprehenderit aperiam! Ratione molestias minus dolores accusantium quidem quia harum quo in cum? Ipsum fugit error animi, non commodi ratione.</p>
+    <br>
+    <img src="img/foto1.JPG" alt="" width="500">
+    <a href="img/foto2.JPG">Ver imagen</a>
+
+    <section>
+        <h2>Aquí van cosas relacionadas a la página pero como un subtema</h2>
+    </section>
+    <article>
+        <h2>Noticia de último momento</h2>
+        <p>Aquí van cosas ajenas a la página Por ejemplo <cite>Esto es una cita</cite></p>
+    </article>
+    <h4>H4!</h4>
+    <h5>H5!</h5>
+    <h6>H6!</h6>
+
+    <!-- listas -->
+    <ul>
+        <li>Soy el primer elemento de una lista no ordenada</li>
+        <li>Soy el segundo elemento de una lista no ordenada</li>
+        <li>Soy el tercer elemento de una lista no ordenada</li>
+        <li>Soy el cuarto elemento de una lista no ordenada</li>
+        <li>Soy el quito elemento de una lista no ordenada</li>
+    </ul>
+    <ol>
+        <li>Soy el primer elemento de una lista ordenada</li>
+        <li>Soy el segundo elemento de una lista ordenada</li>
+        <li>Soy el tercer elemento de una lista ordenada</li>
+        <li>Soy el cuarto elemento de una lista ordenada</li>
+        <li>Soy el quito elemento de una lista ordenada</li>
+    </ol>
+
+    <table>
+        <thead>
+            <h2>Hola, este es el encabezado</h2>
+            <tr>
+                <th>Columan 1</th>
+                <th>Columna 2</th>
+                <th>Columna 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Dato 1*1</td>
+                <td>Dato 1*2</td>
+                <td>Dato 1*3</td>
+            </tr>
+            <tr>
+                <td>Dato 2*1</td>
+                <td>Dato 2*2</td>
+                <td>Dato 2*3</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <!-- formularios -->
+    <form action="archivo.html">
+        <div>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre">
+        </div>
+        <br>
+        <div>
+            <label for="apellido">Apellido</label>
+            <input type="text" name="apellido" placeholder="Primer apellido" id="apellido">
+        </div>
+        <br>
+        <div>
+            <label for="telefono">Telefono</label>
+            <input type="number" name="telefono" id="apellido" maxlength="8">
+        </div>
+        <br>
+        <div>
+            <label for="contraseña">Contraseña</label>
+            <input type="password" name="contraseña" id="contraseña">
+        </div>
+        <br>
+        <div>
+            <label for="genero">Genero</label>
+            <br>
+            <input type="radio">Hombre
+            <input type="radio">Mujer
+        </div>
+        <br>
+        <div>
+            <label for="mensaje">Mensaje</label>
+            <br>
+            <textarea name="mensake" id="mensaje" cols="50" rows="4"></textarea>
+        </div>
+        <div>
+            <label for="edad">Edad</label>
+            <input type="number" name="edad" value="25" id="edad">
+        </div>
+        <div>
+            <label for="fecha">Fecha de nacimiento</label>
+            <input type="date" name="fecha" id="fecha">
+        </div>
+        <br>
+        <label for="materia">Seleccione una materia</label>
+        <select name="materia" id="materia">
+            <option value="Matemáticas">Matemáticas</option>
+            <option value="Español">Español</option>
+            <option value="Química">Química</option>
+            <option value="Física">Física</option>
+        </select>
+        <input type="button" value="Enviar">
+        <input type="submit" value="Enviar">
+        <input type="color">
+    </form>
+
+    <footer>Página creada por Jorge Flores</footer>
+</body>
+</html>
