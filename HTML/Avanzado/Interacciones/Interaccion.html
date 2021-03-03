@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interacciones</title>
+    <style>
+        #caja{
+            width: 500px;
+            height: 500px;
+            padding: 20px;
+            border: 5px solid red;
+        }
+    </style>
+    <script>
+        function drag(evt){
+            evt.dataTransfer.setData("text", evt.target.id);
+            evt.currentTarget.style.border = "dashed";
+            console.log("dragStart");
+        }
+        function dragOver(evt){
+            evt.preventDefault();
+            evt.currentTarget.style.border = "dotted";
+            console.log("dragOver");
+        }
+        function drop(evt){
+            evt.preventDefault();
+            console.log("Drop");
+            var dato = evt.dataTransfer.getData("text");
+            evt.target.appendChild(document.getElementById(dato));
+        }
+    </script>
+</head>
+<body>
+    <div id="caja" ondrop="drop(event);" ondragover="dragOver(event);">
+
+    </div>
+    <img id="foto" src="../Audio y video/img/foto1.JPG" ondragstart="drag(event);" width="500px" alt="">
+</body>
+</html>

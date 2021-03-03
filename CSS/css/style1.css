@@ -1,0 +1,22 @@
+*{
+    background: rgb(218, 178, 178);
+}
+h1{
+    background: rgb(228, 171, 65);
+}
+
+h2{
+    background: rgb(76, 177, 89);
+}
+
+.titulo-uno{
+    background: brown;
+}
+
+p{
+    background: rgb(131, 165, 154);
+}
+
+#id{
+    background: darkslategrey;
+}

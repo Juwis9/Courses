@@ -1,0 +1,61 @@
+body{
+    background: beige ;
+}
+
+h1{
+    background-color: lightgreen;
+    font-size: 60px;
+    text-align: center;
+}
+h1:first-child{
+    background-color:lightseagreen;
+}
+
+h1:nth-child(4){
+    background-color: aquamarine;
+}
+
+h1:last-child{
+    background-color: blueviolet;
+}
+
+a{
+    background-color: blue; 
+    color:white;
+    text-decoration: none;
+    font-size: 3em;
+    display: block;
+    width: 50%;
+    text-align: center;
+    padding: 10px 50px;
+    margin: 0 auto 50px auto;
+}
+
+a:hover{
+    background-color:lightblue;
+}
+
+a:link{
+    color: yellow;
+}
+
+a:visited{
+    background-color: red;
+}
+
+img{
+    width: 500px;
+    float: left;
+    margin: 10px;
+}
+
+.contenedor{
+    width: 90%;
+    margin: 50px auto;
+    padding: 50px;
+}
+
+p{
+    font-size: 2em;
+    padding: 10px;
+}

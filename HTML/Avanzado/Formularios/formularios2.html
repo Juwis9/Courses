@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios 2</title>
+</head>
+<body>
+    <form action="">
+        <label for="usuario">Usuario:</label>
+        <input type="text" id="usuario" name="user" placeholder="Usuario"><br><br>
+        <label for="pass">Contraseña</label>
+        <input type="password" id="pass" name="user"><br><br>
+        <input type="reset" value="Borrar datos"><br><br>
+    </form>
+    <form action="">
+        <input type="radio" id="boca jr" name="club" value="boca jr">
+        <label for="boca jr">Boca Jr</label>
+        <input type="radio" id="river plate" name="club" value="river plate">
+        <label for="river plate">River Plate</label>
+        <input type="button" value="Enviar" id="botoncito">
+    </form>
+    <script type="text/javascript">
+        "use strict"
+        var boton = document.getElementById("botoncito");
+        var clicked = document.getElementsByName("club");
+        var usuario = document.getElementById("usuario");
+        boton.addEventListener("click", function(){
+            clicked[0].checked||clicked[1].checked ? alert(clicked[0].checked ? `Usted hizo click en ${clicked[0].id}`:`Usted hizo click en ${clicked[1].id}`):alert("Usted no precionó ninguna opción");
+            alert(usuario.value);
+        });
+    </script>
+</body>
+</html>

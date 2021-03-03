@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video</title>
+</head>
+<body>
+    <br><br>
+    <div style="text-align: center;">
+        <button onclick="playpause()">Play/pause</button>
+        <button onclick="completa()">Completa</button>
+        <button onclick="normal()">Normal</button>
+        <br><br>
+        <video id="video" width="720" poster="foto1.JPG">
+            <source src="video/boston.mp4">
+        </video>
+    </div>
+    <script>
+        var mi_video = document.getElementById("video");
+        function playpause(){
+            if(mi_video.paused){
+                mi_video.play();
+            }
+            else{
+                mi_video.pause();
+            }
+        }
+        function completa(){
+            mi_video.width="1980";
+        }
+        function normal(){
+            mi_video.width="720";
+        }
+    </script>
+    <iframe src="https://www.youtube.com/embed?v=6TewE1BCZ_M&list=PLg9145ptuAijj9GoHPTcYT8IoQAOchM-n&index=8&ab_channel=yacklyon" frameborder="0"></iframe>
+</body>
+</html>

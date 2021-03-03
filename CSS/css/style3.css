@@ -1,0 +1,37 @@
+body{
+    background: lightgray;
+}
+
+.tipoBloque{
+    background: rgb(184, 93, 207);
+    font-family: sans-serif;
+    font-size: 3em;
+    width: 500px;
+    display:inline-block;
+}
+
+.tipoLinea{
+    background: blue;
+    color: white;
+    font-size: 2em;
+}
+
+a{
+    background: yellow;
+    font-size: 2em;
+}
+
+.bloque1{
+    background: lightblue;
+    color: yellow;
+    width: 50%;
+    display:inline-block;
+    text-align: center;
+}
+
+.bloque2{
+    background: violet;
+    color:black;
+    width: 20%;
+    display: inline;
+}

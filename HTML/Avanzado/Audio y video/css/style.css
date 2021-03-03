@@ -1,0 +1,23 @@
+body{
+    background: #F2F2F2;
+}
+
+.audio{
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, .8);
+    border-radius: 90px;
+    transform: scale(1.5);
+}
+
+.audio button{
+    width: 50px;
+    background-color: #D9D9D9;
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 90px;
+}

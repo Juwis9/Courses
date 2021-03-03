@@ -1,0 +1,38 @@
+body{
+    font-family: monospace;
+    
+    background: lightgrey;
+    text-align: justify;
+}
+
+h1{
+    font-size: 3em;
+}
+h2{
+    font-size: 2em;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+
+.caja1{
+    background: turquoise;
+    font-size: 25px;
+    color: brown;
+    padding:10%;
+    margin-bottom: 30px;
+}
+
+.caja2{
+    background:darkgray;
+    font-size: 30px;
+    padding:10%;
+    border:10px solid green;
+}
+
+.contenedor{
+    width: 75%;
+    margin: 50px auto;
+}
