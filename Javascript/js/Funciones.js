@@ -54,3 +54,4 @@ var sumar2 = (valorA, valorB) => {
 }
 console.log(sumar2(15, 10));
 */
+

@@ -7,8 +7,12 @@ public class Var {
         return (double)Math.pow((double)a, (double)b);
     }
     // ********JAVA UTILIZA COMA EN LUGAR DE PUNTO PARA LOS DECIMALES******** 
+    /*
+        Tipo de dato primitivo:
+        boolean, char, byte, short, int, long, float y double
+    */
     public static void main(String[] args) {
-        final double PI = 3.14159;
+        final double PI = 3.14159; //Constante
         System.out.println("PI es una constante y su valor es: " + PI);
         Scanner input = new Scanner(System.in);
         System.out.print("Ingrese un número: ");
